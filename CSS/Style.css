@@ -1,0 +1,230 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.html
+{
+    font-size:62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Caja
+{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+.Encabezado
+{
+    background-color: rgba(18, 18, 19, 0.829);
+    height: 10vh;
+    border: 0.2rem solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    align-items: center;
+
+}
+.Derecha_superior
+{
+    list-style: none;
+    cursor:grab;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.Encabezado .lista a:hover
+{
+    border: 0.2rem solid #000;
+}
+.Encabezado .lista a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : rgba(201, 200, 207, 0.589);
+    margin:1rem 0.5rem;
+    padding:0.25rem;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    height: 2.5rem;
+    color: #fff;
+
+
+}
+.Encabezado .menu-icon img:hover
+{
+    border: 0.2rem solid #000;
+}
+.Encabezado .menu-icon img
+{
+    display: flex;
+    background-color : rgba(201, 200, 207, 0.589);
+    margin:1rem 0.5rem;
+    padding:0.25rem;
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.Encabezado .foto img:hover
+{
+    border: 0.2rem solid #000;
+}
+.Encabezado .foto img
+{
+    display: flex;
+    background-color : rgba(201, 200, 207, 0.589);
+    margin:1rem 2rem 1rem 0.5rem;
+    padding:0.25rem;
+    border-radius: 5rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width: 3rem;
+}
+.Cuerpo
+{
+    background-color: rgba(196, 191, 191, 0.726);
+    height: 85vh;
+    border: 0.2rem solid rgb(255, 255, 255);
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.Cuerpo .nombre
+{
+    font-size: 20rem;
+}
+.Cuerpo .buscador
+{
+    background-color : rgba(22, 22, 22, 0.671);
+    margin:1rem;
+    padding:0.25rem;
+    border-radius: 5rem;
+    width: 50rem;
+    line-height: 2.6rem;
+    border: 0.2rem solid rgb(255, 255, 255); 
+    font-size: 2.2rem;
+    display:flex;
+    
+}
+.Cuerpo .buscador:hover
+{
+    box-shadow: 0 0.1rem 1rem 0 #20212447;
+    border: 0.2rem solid rgb(12, 12, 12); 
+}
+
+.Cuerpo .buscador .lupa img
+{
+    border-radius: 50%;
+    border: 0.2rem solid #fff;
+    width: 3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cuerpo .buscador input
+{
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 47rem;
+    margin: 1rem 1rem 1rem 0;
+}
+.Cuerpo .buscador .microfono img
+{
+    border-radius: 50%;
+    border: 0.2rem solid #fff;
+    width: 3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:grab;
+
+}
+.Cuerpo .contenido
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.Cuerpo .lista a:hover
+{
+    border: 0.2rem solid #000;
+
+}
+.Cuerpo .lista a
+{
+    display: flex;
+    background-color : rgba(22, 22, 22, 0.671);
+    margin:0.2rem;
+    padding:0.25rem;
+    min-width: 8rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(255, 255, 255); 
+    justify-content: center;
+    align-items: center;
+    cursor:grab;
+    color: #fff;
+}
+
+.Pie_de_paguina
+{
+    background-color: rgba(18, 18, 19, 0.829);
+    height: 5vh;
+    border: 0.2rem solid rgb(255, 255, 255);
+    display: flex;
+    justify-content : space-between;
+    align-items:center;
+    color:#fff;
+}
+.Pie_de_paguina .Izquierda li:hover
+{
+    border: 0.2rem solid #000;
+}
+.Izquierda li
+{
+    display: inline-block;
+    background-color : rgba(201, 200, 207, 0.589);
+    margin:0.2rem 0.2rem 0.2rem 1rem;
+    padding:0.25rem;
+    border-radius: 0.7rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+}
+.Pie_de_paguina .Derecha li:hover
+{
+    border: 0.2rem solid #000;
+}
+.Derecha li
+{
+    display: inline-block;
+    background-color : rgba(201, 200, 207, 0.589);
+    margin:0.2rem 1rem 0.2rem 0.2rem;
+    padding:0.25rem;
+    border-radius: 0.7rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+}
